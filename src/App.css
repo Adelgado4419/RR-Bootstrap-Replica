@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+#basic-navbar-nav {
+  justify-content: right;
+  margin-right: 1em;
+}
+
+.textImg {
+  text-align: left;
+  padding-top: 30px;
+
+}
+
+.storeLocationText {
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+#locationText {
+  color:green;
+}
+
+.Row {
+  border-bottom: 1px solid #E8E9EB;
+  display: flex; 
+  justify-content: space-evenly
+}
+
+.addInput {
+  max-width: 25%;
+}
+
