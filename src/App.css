@@ -67,3 +67,13 @@
   max-width: 25%;
 }
 
+.storeImage {
+  max-height: 40px;
+  max-width: 40px;
+  margin-left: 40%;
+}
+
+.storeDelivery{
+  color: green;
+  font-size: larger;
+}

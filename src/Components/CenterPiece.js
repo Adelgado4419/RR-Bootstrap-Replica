@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form';
 
 export default function CenterPiece() {
     return (
-     <CardGroup>
+     <CardGroup >
         <Card style={{backgroundColor:"rgb(222,237,214)" }}>
             <Card.Img src="background-image.png" 
                         alt="Card image"
@@ -15,7 +15,7 @@ export default function CenterPiece() {
                             position: "relative",
                             left: "84%",
                         }} />
-            <Card.ImgOverlay>
+            <Card.ImgOverlay style={{marginLeft:"15%"}}>
                 <Card.Title className="textImg"><h1>Order groceries for delivery <br/> or pickup today</h1></Card.Title>
                 <Card.Text className="textImg">Whatever you want from local stores, brought right to your door.</Card.Text>
 

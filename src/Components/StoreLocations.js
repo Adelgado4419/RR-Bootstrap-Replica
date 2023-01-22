@@ -11,62 +11,62 @@ export default function StoreLocations () {
                 href="https://www.lasvegas.com/"> Las Vegas</span></h3>
         <br/>
       <CardGroup>
-        <Card style={{borderWidth: "0px", paddingLeft:"10%"}}>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title><h5 style = {{fontWeight: "bold"}}> Sprouts Farmers Market </h5></Card.Title>
-            <Card.Text>
-                    <p>Delivery * Pickup 1.9mi</p>
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card style={{borderWidth: "0px"}}>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title><h5 style = {{fontWeight: "bold"}}> Smith's </h5></Card.Title>
-            <Card.Text>
-                    <p style={{color: "green" }}>Delivery by 10:10pm</p>
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card style={{borderWidth: "0px", paddingRight:"10%"}}>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title><h5 style = {{fontWeight: "bold"}}> Albertsons </h5></Card.Title>
-            <Card.Text>
-                    <p style={{color: "green" }} >Delivery by 10:13pm</p>
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </CardGroup>
-
-
-
-      <CardGroup>
-        <Card style={{borderWidth: "0px", paddingLeft:"10%"}}>
-          <Card.Img variant="top" src="holder.js/100px160" />
+      <Card style={{borderWidth: "0px", marginLeft:"10%"}}>
+          <Card.Img className="storeImage" variant="top" src="costco.png" />
           <Card.Body>
             <Card.Title><h5 style = {{fontWeight: "bold"}}> Costco </h5></Card.Title>
             <Card.Text>
-                    <p>Delivery * Pickup</p>
+                    <p className="storeDelivery">Delivery within <b>1 hour!</b></p>
             </Card.Text>
           </Card.Body>
         </Card>
         <Card style={{borderWidth: "0px"}}>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img className="storeImage" variant="top" src="smiths.png" />
           <Card.Body>
-            <Card.Title><h5 style = {{fontWeight: "bold"}}> Smith's Delivery Now </h5></Card.Title>
+            <Card.Title><h5 style = {{fontWeight: "bold"}}> Smith's </h5></Card.Title>
             <Card.Text>
-                    <p>Delivery * Pickup</p>
+                    <p className="storeDelivery">Delivery by <b>10:10pm</b></p>
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{borderWidth: "0px", paddingRight:"10%"}}>
-          <Card.Img variant="top" src="holder.js/100px160" />
+        <Card style={{borderWidth: "0px", marginRight:"10%"}}>
+          <Card.Img className="storeImage" variant="top" src="albertsons.png" />
+          <Card.Body>
+            <Card.Title><h5 style = {{fontWeight: "bold"}}> Albertsons </h5></Card.Title>
+            <Card.Text>
+                    <p className="storeDelivery">Delivery by <b>10:10pm</b></p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </CardGroup>
+
+
+
+      <CardGroup>
+        <Card style={{borderWidth: "0px", marginLeft:"10%"}}>
+          <Card.Img className="storeImage" variant="top" src="costco.png" />
+          <Card.Body>
+            <Card.Title><h5 style = {{fontWeight: "bold"}}> Costco </h5></Card.Title>
+            <Card.Text>
+                    <p className="storeDelivery">Delivery within <b>1 hour!</b></p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card style={{borderWidth: "0px"}}>
+          <Card.Img className="storeImage" variant="top" src="smithsnow.png" />
+          <Card.Body>
+            <Card.Title><h5 style = {{fontWeight: "bold"}}> Smith's Delivery Now </h5></Card.Title>
+            <Card.Text>
+                    <p className="storeDelivery">Delivery within <b>1 hour!</b></p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card style={{borderWidth: "0px", marginRight:"10%"}}>
+          <Card.Img className="storeImage" variant="top" src="walgreens.png" />
           <Card.Body>
             <Card.Title><h5 style = {{fontWeight: "bold"}}> Walgreens </h5></Card.Title>
             <Card.Text>
-                    <p style={{color: "green" }} >Delivery in <b>20 Minutes!</b></p>
+                    <p className="storeDelivery">Delivery in <b>20 Minutes!</b></p>
             </Card.Text>
           </Card.Body>
         </Card>
@@ -76,30 +76,30 @@ export default function StoreLocations () {
 
 
       <CardGroup>
-        <Card style={{borderWidth: "0px", paddingLeft:"10%"}}>
-          <Card.Img variant="top" src="holder.js/100px160" />
+        <Card style={{borderWidth: "0px", marginLeft:"10%"}}>
+          <Card.Img className="storeImage" variant="top" src="vons.png" />
           <Card.Body>
             <Card.Title><h5 style = {{fontWeight: "bold"}}> Vons </h5></Card.Title>
             <Card.Text>
-                    <p>Delivery * Pickup</p>
+                    <p className="storeDelivery">Delivery within <b>1 hour!</b></p>
             </Card.Text>
           </Card.Body>
         </Card>
         <Card style={{borderWidth: "0px"}}>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img className="storeImage" variant="top" src="cardenas.png" />
           <Card.Body>
             <Card.Title><h5 style = {{fontWeight: "bold"}}> Cardenas markets </h5></Card.Title>
             <Card.Text>
-                    <p>Delivery * Pickup</p>
+                    <p className="storeDelivery">Delivery within <b>1 hour!</b></p>
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{borderWidth: "0px", paddingRight:"10%"}}>
-          <Card.Img variant="top" src="holder.js/100px160" />
+        <Card style={{borderWidth: "0px", marginRight:"10%"}}>
+          <Card.Img className="storeImage" variant="top" src="cvs.png" />
           <Card.Body>
             <Card.Title><h5 style = {{fontWeight: "bold"}}> CVS Pharmacy </h5></Card.Title>
             <Card.Text>
-                    <p>Delivery * Pickup</p>
+                    <p className="storeDelivery">Delivery within <b>1 hour!</b></p>
             </Card.Text>
           </Card.Body>
         </Card>
@@ -109,29 +109,29 @@ export default function StoreLocations () {
         
       <CardGroup>
         <Card style={{borderWidth: "0px", paddingLeft:"10%"}}>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img className="storeImage" variant="top" src="petco.png" />
           <Card.Body>
             <Card.Title><h5 style = {{fontWeight: "bold"}}> Petco </h5></Card.Title>
             <Card.Text>
-                    <p>Delivery * Pickup</p>
+                    <p className="storeDelivery">Delivery within <b>1 hour!</b></p>
             </Card.Text>
           </Card.Body>
         </Card>
         <Card style={{borderWidth: "0px"}}>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img className="storeImage" variant="top" src="smartandfinal.png" />
           <Card.Body>
             <Card.Title><h5 style = {{fontWeight: "bold"}}> Smart & Final </h5></Card.Title>
             <Card.Text>
-                    <p>Delivery * Pickup</p>
+                    <p className="storeDelivery">Delivery within <b>1 hour!</b></p>
             </Card.Text>
           </Card.Body>
         </Card>
         <Card style={{borderWidth: "0px", paddingRight:"10%"}}>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img className="storeImage" variant="top" src="samsclub.png" />
           <Card.Body>
             <Card.Title><h5 style = {{fontWeight: "bold"}}> Sam's Club </h5></Card.Title>
             <Card.Text>
-                    <p>Delivery * Pickup</p>
+                    <p className="storeDelivery">Delivery within <b>1 hour!</b></p>
             </Card.Text>
           </Card.Body>
         </Card>
